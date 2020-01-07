@@ -1,0 +1,27 @@
+{
+  "name": "notes",
+  "version": "1.0.1",
+  "description": "- server template based on koa2",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-folding-chapters": "^0.0.9",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-splitter": "^0.0.8",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gitbook build ./ ./docs",
+    "serve": "gitbook serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
